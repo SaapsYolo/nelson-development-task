@@ -22,4 +22,4 @@ app.post('/api/sort', (req, res) => {
 });
 
 const app = require('../script');
-module.exports=app;
+module.exports=serverless(app);
