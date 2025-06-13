@@ -1,2 +1,2 @@
-const app = require('/script.js');
+const app = require('./script.js');
 module.exports = app;
