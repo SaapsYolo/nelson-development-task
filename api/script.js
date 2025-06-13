@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/api/sort', (req, res) => {
+app.post('/api/script', (req, res) => {
     const {data} = req.body;
 
     //if there is no string data, return an error message
